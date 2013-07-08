@@ -1,0 +1,26 @@
+{
+    "name": "pixeldomain/zf2skeleton",
+    "description": "Pixel Domain ZF2 skeleton application",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "homepage": "http://www.pixeldomain.co.uk",
+    "authors": [
+        {
+            "name": "Darren O'Neill",
+            "email": "darren@pixeldomain.co.uk",
+            "homepage": "http://www.pixeldomain.co.uk"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:pixeldomain/pixeldomain_zf2_utils.git"
+        }
+    ],
+    "require": {
+        "pixeldomain/zf2utils": "1.0.*"
+    }
+}

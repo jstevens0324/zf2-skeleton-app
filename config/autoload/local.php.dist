@@ -1,0 +1,29 @@
+<?php
+
+return array(
+    'view_manager' => array(
+        'display_not_found_reason' => true,
+        'display_exceptions'       => true,
+    ),
+    'environment' => 'development',
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
+                'params' => array(
+                    'host'     => 'localhost',
+                    'port'     => '5432',
+                    'user'     => '',
+                    'password' => '',
+                    'dbname'   => '',
+                )
+            )
+        )
+    ),
+    'sendgrid' => array(
+        'username'              => '',
+        'password'              => '',
+        'notificationRecipient' => '',
+        'projectName'           => ''
+    )
+);
