@@ -21,6 +21,6 @@
         }
     ],
     "require": {
-        "pixeldomain/zf2utils": "1.0.*"
+        "pixeldomain/zf2utils": "1.1.*"
     }
 }

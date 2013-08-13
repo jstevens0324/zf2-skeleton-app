@@ -48,7 +48,7 @@
 
     <div class="container">
 
-      {{ content | raw }}
+      {% block content %}{{ content|raw }}{% endblock content %}
 
       <hr>
 
